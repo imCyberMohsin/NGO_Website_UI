@@ -11,4 +11,9 @@ router.get('/news', (req, res) => {
     res.render('newsPage')
 })
 
+//? Donate route
+router.get('/donate', (req, res) => {
+    res.render('donatePage')
+})
+
 module.exports = router;
