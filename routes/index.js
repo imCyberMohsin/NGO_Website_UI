@@ -18,7 +18,7 @@ router.get('/gallery', (req, res) => {
 
 //? Error Page Redirect
 router.get('*', (req, res) => {
-    res.redirect('/')
+    res.render('errorPage')
 })
 
 module.exports = router;
